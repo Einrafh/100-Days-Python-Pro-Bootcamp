@@ -1,7 +1,7 @@
 # Librari
 import random
 
-# Inialisasi ilustrasi batu, gunting, kertas
+# Inisialisasi ilustrasi batu, gunting, kertas
 batu = '''
     _______
 ---'   ____)
