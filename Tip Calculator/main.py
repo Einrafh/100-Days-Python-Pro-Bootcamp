@@ -20,7 +20,7 @@ while True:
 # Menanyakan berapa persen tip yang ingin diberikan
 while True:
     try:
-        print("Berapa persen tip yang ingin anda berikan?")
+        print("Berapa persen tip yang ingin kamu berikan?")
         tip = int(input("Jawab: "))
         print("-----")
         break
