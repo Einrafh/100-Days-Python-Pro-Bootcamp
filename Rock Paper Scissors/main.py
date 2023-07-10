@@ -43,12 +43,12 @@ while True:
             pilihanUser = int(input("Jawab: "))
             break
         except ValueError:
-            print("Input tidak valid! Anda harus input angka.")
+            print("Input tidak valid! Kamu harus input angka.")
             print("-----")
 
     # Memastikan user input angka yang valid
     if pilihanUser < 1 or pilihanUser > 3:
-        print("Anda mengetik angka yang tidak valid. Anda kalah!")
+        print("Kamu mengetik angka yang tidak valid. Kamu kalah!")
         print("-----")
     else:
         print(ilustrasi[pilihanUser - 1])
@@ -82,7 +82,7 @@ while True:
         elif ulangi.lower() == "n":
             break
         else:
-            print("Input tidak valid! Anda harus input antara \"y\" atau \"n\".")
+            print("Input tidak valid! Kamu harus input antara \"y\" atau \"n\".")
             print("-----")
 
     if ulangi.lower() == "n":
