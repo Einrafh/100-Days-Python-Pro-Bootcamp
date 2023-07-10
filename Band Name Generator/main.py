@@ -14,7 +14,7 @@ benda = input("Jawab: ")
 print("-----")
 
 # Menggabungkan nama kota dan benda, dan menampilkan nama band mereka.
-print(f'Nama band anda adalah "{kota.capitalize()} {benda.capitalize()}"')
+print(f'Nama band kamu adalah "{kota.capitalize()} {benda.capitalize()}"')
 
 # Penanda
 print("=" * 40)
