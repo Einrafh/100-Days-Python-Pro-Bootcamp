@@ -11,19 +11,37 @@ simbol = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 print("Selamat datang di PyPassword Generator!")
 
 # Menanyakan jumlah huruf yang ingin dipakai user
-print("Berapa banyak huruf yang ingin kamu gunakan pada password kamu?")
-nHuruf = int(input("Jumlah huruf: "))
-print("-----")
+while True:
+    try:
+        print("Berapa banyak huruf yang ingin kamu gunakan pada password kamu?")
+        nHuruf = int(input("Jumlah huruf: "))
+        print("-----")
+        break
+    except ValueError:
+        print("Input tidak valid! Mohon masukkan angka yang benar.")
+        print("-----")
 
 # Menanyakan jumlah angka yang ingin dipakai user
-print("Berapa banyak angka yang ingin kamu gunakan pada password kamu?")
-nAngka = int(input("Jumlah angka: "))
-print("-----")
+while True:
+    try:
+        print("Berapa banyak angka yang ingin kamu gunakan pada password kamu?")
+        nAngka = int(input("Jumlah angka: "))
+        print("-----")
+        break
+    except ValueError:
+        print("Input tidak valid! Mohon masukkan angka yang benar.")
+        print("-----")
 
 # Menanyakan jumlah simbol yang ingin dipakai user
-print("Berapa banyak simbol yang ingin kamu gunakan pada password kamu?")
-nSimbol = int(input("Jumlah simbol: "))
-print("-----")
+while True:
+    try:
+        print("Berapa banyak simbol yang ingin kamu gunakan pada password kamu?")
+        nSimbol = int(input("Jumlah simbol: "))
+        print("-----")
+        break
+    except ValueError:
+        print("Input tidak valid! Mohon masukkan angka yang benar.")
+        print("-----")
 
 # Memilih secara acak huruf, angka, dan simbol serta menggabungnya ke dalam sebuah list password
 listPassword = []
