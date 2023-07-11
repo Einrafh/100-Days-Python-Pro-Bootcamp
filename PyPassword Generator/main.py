@@ -68,5 +68,5 @@ print(f"Password untuk kamu adalah {password}")
 
 # Penanda
 print("=" * 40)
-print("Tip Calculator by Einrafh")
+print("PyPassword Generator by Einrafh")
 print("=" * 40)
