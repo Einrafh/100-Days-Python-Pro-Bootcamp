@@ -44,7 +44,8 @@ while True:
             print("Kamu kalah!")
             print(asetHangman.tahapan[darah])
             break
-
+    
+    # Menampilkan kotak display
     print(f"{' '.join(display)}")
 
     # Mengecek jika user telah menebak seluruh huruf pada kata tebakan
