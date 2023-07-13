@@ -15,10 +15,10 @@ def bidTertinggi(daftarBid):
     bidderTertinggi = ""
 
     for bidder in daftarBid:
-        jumlahBid = daftarBid[bidder]
+        nilaiBid = daftarBid[bidder]
 
-        if jumlahBid > bidTertinggi:
-            bidTertinggi = jumlahBid
+        if nilaiBid > bidTertinggi:
+            bidTertinggi = nilaiBid
             bidderTertinggi = bidder
     
     # Mengubah format angka
