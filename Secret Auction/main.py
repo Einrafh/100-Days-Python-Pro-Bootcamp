@@ -1,6 +1,6 @@
 # Librari
-import locale
 import asetAuction
+import locale
 
 # Inisialisasi variabel
 bids = {}
