@@ -49,7 +49,7 @@ while True:
     teks = input("Jawab: ").lower()
     print("-----")
 
-    # # Memeriksa valid tidaknya input jumlah shift
+    # Memeriksa valid tidaknya input jumlah shift
     while True:
         try:
             print("Masukkan jumlah shift yang kamu inginkan:")
