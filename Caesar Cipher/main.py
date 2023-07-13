@@ -34,6 +34,7 @@ print("Selamat datang di Caesar Cipher!")
 while True:
     # Memeriksa valid tidaknya input jenis
     while True:
+        # Input jenis
         print("Ketik \"enkode\" untuk enkripsi, ketik \"dekode\" untuk dekripsi.")
         jenis = input("Jawab: ").lower()
 
@@ -52,6 +53,7 @@ while True:
     # Memeriksa valid tidaknya input jumlah shift
     while True:
         try:
+            # Input shift
             print("Masukkan jumlah shift yang kamu inginkan:")
             shift = int(input("Jawab: "))
             shift = shift % 26
