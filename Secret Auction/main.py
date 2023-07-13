@@ -37,9 +37,10 @@ while True:
     print("Siapa nama kamu?")
     nama = input("Jawab: ")
 
-    # Input nilai bid
+    # Memeriksa valid tidaknya input nilai bid
     while True:
         try:
+            # Input nilai bid
             print("Berapa bid kamu?")
             bid = int(input("Jawab: Rp"))
             print("-----")
