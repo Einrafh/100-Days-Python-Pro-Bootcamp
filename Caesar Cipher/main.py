@@ -9,9 +9,11 @@ alfabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 def cipher(teksAwal, jumlahShift, jenisCipher):
     teksAkhir = ""
 
+    # Mengubah jumlah shift menjadi negatif jika ingin dekode teks
     if jenisCipher == "dekode":
         jumlahShift *= -1
 
+    # Proses enkode dan dekode
     for karakter in teksAwal:
         if karakter in alfabet:
             posisi = alfabet.index(karakter)
@@ -20,6 +22,7 @@ def cipher(teksAwal, jumlahShift, jenisCipher):
         else:
             teksAkhir += karakter
     
+    # Menampilkan hasil akhir teks
     print(f"Berikut hasil {jenisCipher}nya:")
     print(f"{teksAkhir}")
 
