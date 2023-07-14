@@ -38,6 +38,6 @@ daftarKata = [
     "tenang", "terang", "teras", "teriak", "tidur", "tiga", "tikus", "tinggi", "tinta", "toko",
     "tongkat", "topi", "truk", "tua", "tubuh", "tugu", "tulis", "tumpah", "tusuk", "tujuh",
     "udara", "uang", "ubur-ubur", "ular", "unggun", "unik", "usaha", "utama", "virus", "waktu",
-    "warna", "waspada", "waktu", "wajah", "warga", "warta", "xenon", "yang", "yesus", "yudisium",
+    "warna", "waspada", "waktu", "wajah", "warga", "warta", "xenon", "yang", "yudisium",
     "yuk", "zaman", "zat", "zebra", "zodiak"
 ]
