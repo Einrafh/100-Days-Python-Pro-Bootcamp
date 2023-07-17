@@ -38,7 +38,7 @@ def kalkulator(angkaPertama, angkaKedua, operator):
 # Loop jika user ingin mengulang program
 ulang = True
 while ulang:
-    # Membuat awalan
+    # Membuat sebuah awalan program
     print(asetCalculator.logo)
 
     # Mengecek input angka pertama valid
@@ -51,14 +51,14 @@ while ulang:
         except ValueError:
             print("Input tidak valid.")
             print("-----")
-
-    # Menampilkan semua operator yang berada pada operasi
-    opKeys = list(operasi.keys())
-    panjangOpKeys = len(opKeys)
     
     # Loop jika user ingin lanjut kalkulasi dari hasil
     lanjut = True
     while lanjut:
+        # Menampilkan semua operator yang berada pada operasi
+        opKeys = list(operasi.keys())
+        panjangOpKeys = len(opKeys)
+
         # Mengecek input operator valid
         while True:
             for i, key in enumerate(opKeys):
