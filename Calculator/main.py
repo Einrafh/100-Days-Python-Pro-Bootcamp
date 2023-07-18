@@ -39,7 +39,7 @@ def kalkulator(angkaPertama, angkaKedua, operator):
 ulang = True
 while ulang:
     # Membuat sebuah awalan program
-    print(asetCalculator.logo)
+    print(asetCalculator.LOGO)
 
     # Mengecek input angka pertama valid
     while True:
