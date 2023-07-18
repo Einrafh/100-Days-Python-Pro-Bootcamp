@@ -73,7 +73,7 @@ def main():
             # Mengecek tebakan
             turns = cekTebakan(tebakan, jawaban, turns)
 
-            # Mengecek kondisi apakah jawaban user tepat atau tidak, dan mengecek apakah ada turns tersisa
+            # Mengecek kondisi apakah tebakan user tepat atau tidak, dan mengecek apakah ada turns tersisa
             if tebakan != jawaban and turns == 0:
                 print("Kamu kehabisan kesempatan menebak. Kamu kalah.")
                 print("-----")
