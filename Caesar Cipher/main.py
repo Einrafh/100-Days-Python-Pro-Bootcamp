@@ -27,7 +27,7 @@ def cipher(teksAwal, jumlahShift, jenisCipher):
     print(f"{teksAkhir}")
 
 # Membuat sebuah awalan program
-print(asetCipher.logo)
+print(asetCipher.LOGO)
 print("Selamat datang di Caesar Cipher!")
 
 # Input dan memanggil fungsi cipher
