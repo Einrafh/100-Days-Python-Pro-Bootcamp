@@ -92,7 +92,7 @@ def main():
             clear()
             main()
         elif ulangi == "tidak":
-            break
+            return
         else:
             print("Input tidak valid.")
             print("-----")
