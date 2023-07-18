@@ -28,7 +28,7 @@ def bidTertinggi(daftarBid):
     print(f"Pemenangnya adalah {bidderTertinggi} dengan bid Rp{bidTertinggi}")
 
 # Membuat sebuah awalan program
-print(asetAuction.logo)
+print(asetAuction.LOGO)
 print("Selamat datang di Secret Auction!")
 
 # Input dan memanggil fungsi bid tertinggi
