@@ -2,7 +2,7 @@
 import random
 
 # Inisialisasi ilustrasi batu, gunting, kertas
-batu = '''
+BATU = '''
     _______
 ---'   ____)
       (_____)
@@ -11,16 +11,7 @@ batu = '''
 ---.__(___)
 '''
 
-gunting = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
-
-kertas = '''
+KERTAS = '''
     _______
 ---'   ____)____
           ______)
@@ -29,7 +20,16 @@ kertas = '''
 ---.__________)
 '''
 
-ilustrasi = [batu, kertas, gunting]
+GUNTING = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+ilustrasi = [BATU, KERTAS, GUNTING]
 
 # Membuat sebuah awalan program
 print("Selamat datang di Rock Paper Scissors!")
