@@ -38,7 +38,7 @@ def cekTebakan(tebakan, jawaban, turns):
 # Membuat fungsi utama dari Guess The Number
 def main():
     # Membuat sebuah awalan program
-    print(asetGuessTheNumber.logo)
+    print(asetGuessTheNumber.LOGO)
     print("Selamat datang di permainan Guess The Number!")
     print("Pikirkan angka antara 1 hingga 100.")
 
