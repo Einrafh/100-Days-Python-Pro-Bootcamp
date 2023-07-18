@@ -12,7 +12,7 @@ darah = 6
 maksDarah = 6
 
 # Membuat sebuah awalan program
-print(asetHangman.logo)
+print(asetHangman.LOGO)
 
 # Membuat display kotak jawaban
 display = []
@@ -42,7 +42,7 @@ while True:
 
         if darah == 0:
             print("Kamu kalah!")
-            print(asetHangman.tahapan[darah])
+            print(asetHangman.TAHAPAN[darah])
             break
     
     # Menampilkan kotak display
@@ -54,7 +54,7 @@ while True:
         break
 
     # Menampilkan ilustrasi hangman sesuai darah tersisa
-    print(asetHangman.tahapan[darah])
+    print(asetHangman.TAHAPAN[darah])
 
 # Penanda
 print("=" * 40)
