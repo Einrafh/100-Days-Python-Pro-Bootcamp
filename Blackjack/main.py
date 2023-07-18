@@ -71,7 +71,7 @@ while blackJack:
         kompCards.append(dealCard())
 
     # Membuat sebuah awalan program
-    print(asetBlackjack.logo)
+    print(asetBlackjack.LOGO)
 
     # Loop jika user ingin mengambil kartu kembali
     ambilKartu = True
