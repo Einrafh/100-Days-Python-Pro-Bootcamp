@@ -108,5 +108,5 @@ main()
 
 # Penanda
 print("=" * 40)
-print("Caesar Cipher by Einrafh")
+print("Higher Lower by Einrafh")
 print("=" * 40)
