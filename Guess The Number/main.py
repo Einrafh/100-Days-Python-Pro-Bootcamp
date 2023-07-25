@@ -102,5 +102,5 @@ main()
 
 # Penanda
 print("=" * 40)
-print("Caesar Cipher by Einrafh")
+print("Guess The Number by Einrafh")
 print("=" * 40)
